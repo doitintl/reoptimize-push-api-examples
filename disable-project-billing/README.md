@@ -5,7 +5,10 @@ defined in reOptimize.
 
 reOptimize will publish a message wehn a budget reaches a threshold. The function checks if the current spend exceeds the
 budget amount (make sure you set a threshold of 100% or more) and that the budget targets a specific project.
-If these conditions are met it will try to unlink the budget's target project from its billing account.
+If these conditions are met it will unlink the budget's target project from its billing account.
+
+**Important**: Unlinking a project from a billing account means that any billable activity of your in-use services will stop, 
+and your application could stop functioning as expected.
 
 ## Prerequisites
 
