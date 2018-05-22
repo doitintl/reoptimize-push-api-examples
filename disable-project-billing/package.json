@@ -1,0 +1,10 @@
+{
+  "name": "reoptimize-budget-events",
+  "description": "reOptimize budget event Cloud Function subscriber",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "dependencies": {
+    "googleapis": "^30.0.0"
+  }
+}
