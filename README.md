@@ -19,6 +19,6 @@ setting up Enrichments is a pre-requisite to the Push API.
 
 Follow this [guide](https://support.reoptimize.io/hc/en-us/articles/360002533731-Push-API) to set up Push API.
 
-Push API allows reOptimize to publish messages to a Pub/Sub topic of your choice when certain events occure.
+Push API allows reOptimize to publish messages to a Pub/Sub topic of your choice when certain events occur.
 For example, we can publish a message whenever a budget you configured reaches a thredhold.
 The examples in this project demonstrate how you can take action upon receiving such messages.
